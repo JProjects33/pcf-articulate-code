@@ -1,4 +1,4 @@
-/*package io.pivotal.education.articulate
+package io.pivotal.education.articulate
 
 import groovy.json.JsonSlurper
 import okhttp3.OkHttpClient
@@ -12,7 +12,7 @@ import java.security.cert.X509Certificate
 class HealthSpec extends Specification {
   def baseUrl = System.getenv().BASE_URL ?: "http://localhost:8080"
 
-  def "should pass health check"() {
+  /*def "should pass health check"() {
     given:
     def client = httpClient()
     def request = new Request.Builder()
@@ -69,6 +69,6 @@ class HealthSpec extends Specification {
     X509Certificate[] getAcceptedIssuers() {
       new X509Certificate[0]
     }
-  }
+  }*/
 
-}*/
+}
