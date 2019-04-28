@@ -1,4 +1,4 @@
-package io.pivotal.education.articulate
+/*package io.pivotal.education.articulate
 
 import groovy.json.JsonSlurper
 import okhttp3.OkHttpClient
@@ -71,4 +71,4 @@ class HealthSpec extends Specification {
     }
   }
 
-}
+}*/
